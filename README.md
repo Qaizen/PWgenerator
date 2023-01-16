@@ -41,7 +41,7 @@ NA
 
 ## PW generator web app screenshot
 
-![Screenshot](pwgenerator/asset/images/B70A0860-DAD8-4774-AF5E-85A812954BDD.jpeg)
+![Screenshot](./asset/images/pwgen_screenshot.jpeg)
 
 ## License
 
