@@ -23,12 +23,12 @@ function generatePassword() {
   var all = "";
 
   // All possible character variables availables for input
-  // Create a variable named "length" and assign value forinput, convert to integer using parseInt().
+  // Create a variable named "length" and assign value for input, convert to integer using parseInt().
   var length = parseInt(window.prompt("Pick a password length from 8 -128.")); 
 
   // If input is less 8 or more than 128 show message and try again
   if(length <8 || length >128) {
-    alert("Password length is not between 8 - 128");
+    alert("Please enter a password length between 8 - 128 characters.");
     location.reload();
   }
 
