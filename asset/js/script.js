@@ -61,7 +61,7 @@ function generatePassword() {
     all += symbols;
   }
 
-  // Create a variable called "allpw" and initialize as an empty string. Then it enters a for loop that will run for a number of iterations equal to the value of the "length" variable. On each iteration of the loop, a random character is chosen from the "all" string and added to the "allpw" variable using the += operator. The random character is chosen by using the Math.random() method, which returns a random number between 0 and 1, and multiplying it by the length of the "all" string. The Math.floor() method is used to round the result down to the nearest whole number, so that the result can be used as an index to retrieve a character from the "all" string. The for loop constructs a string of random characters of the length specified by the "length" variable.
+  // Create a variable called "allPw" and initialize as an empty string. Then it enters a for loop that will run for a number of iterations equal to the value of the "length" variable. On each iteration of the loop, a random character is chosen from the "all" string and added to the "allPw" variable using the += operator. The random character is chosen by using the Math.random() method, which returns a random number between 0 and 1, and multiplying it by the length of the "all" string. The Math.floor() method is used to round the result down to the nearest whole number, so that the result can be used as an index to retrieve a character from the "all" string. The for loop constructs a string of random characters of the length specified by the "length" variable.
 
   var allPw = "";
   for (var i = 0; i < length; i++) {
